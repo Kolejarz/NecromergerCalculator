@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Necromerger Rune Optimizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Necromerger Time Machine Rune Optimizer</h1>
+      <p>
+        Enter your runes and already built max stations to find the best legendary-focused spending plan.
+      </p>
+      <p class="note">
+        Browser-only tool: all calculations run locally on your device. No backend and no data upload.
+      </p>
+
+      <section class="card">
+        <h2>Rune inventory</h2>
+        <div id="rune-fields" class="grid"></div>
+      </section>
+
+      <section class="card">
+        <h2>Already built MAX stations</h2>
+        <div id="station-fields" class="grid"></div>
+      </section>
+
+      <div class="actions">
+        <button id="optimize-btn">Optimize spend</button>
+      </div>
+
+      <section id="results" class="card hidden"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
